@@ -1,0 +1,16 @@
+<project  name="irctc" default="test"  basedir="." >
+
+<target name="compile" >
+
+<echo>this is my first ant file </echo>
+
+</target>
+
+<target name="test" depends="compile">
+
+<echo>this is my second line </echo>
+
+</target>
+
+
+</project>
